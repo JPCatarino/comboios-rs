@@ -1,6 +1,6 @@
 # Comboios de Portugal API Client for Rust
 
-An unofficial, incomplete API client, written in Rust, for the CP API. 
+An unofficial, incomplete API client in Rust, for the CP API. 
 
 Based on the [JavaScript implementation](https://github.com/juliuste/comboios).
 
