@@ -60,11 +60,7 @@ impl Client{
         match response.status() {
             reqwest::StatusCode::OK => {
                 match response.json::<definitions::Stations>().await {
-                    Ok(parsed) => {
-                                    println!("Success! {:?}", parsed);
-                                    ret_value = Some(parsed);
-                                    
-                                  }
+                    Ok(parsed) => {ret_value = Some(parsed);}
                     Err(_) => {ret_value = None;}
                 };
             }
